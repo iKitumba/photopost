@@ -1,0 +1,39 @@
+.register-form {
+  width: 750px;
+  max-width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  line-height: 24px;
+}
+
+.upload {
+  width: 250px;
+  max-width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  border: 2px dotted var(--color-textSecondary);
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: .2rem;
+  box-shadow: 2px 0px 2px -2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+}
+
+.upload > p {
+  color: var(--color-textSecondary);
+  font-size: .8rem;
+}
+
+#upload-avatar {
+  display: none;
+}
